@@ -1,0 +1,16 @@
+@import '../../styles/main.scss';
+
+.bioWrapper {
+    display: flex;
+    gap: 24px;
+}
+
+.pic {
+    background-color: $pink2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    min-height: 200px;
+    min-width: 200px;
+}

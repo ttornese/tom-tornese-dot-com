@@ -1,0 +1,48 @@
+@import './reset.css';
+
+$green: #3f8d54;
+$green2: #b5d3bd;
+$pink: #ea5a94;;
+$pink2: #ec679d;
+$white: #f0dfd5;
+$black: #191919;
+
+#root {
+    background-color: $green2;
+    height: auto;
+    color: $black;
+}
+
+body {
+    background-color: $pink2;
+}
+
+footer,
+nav {
+    background-color: $pink2;
+    padding: 16px;
+}
+
+nav {
+    border-bottom: 2px solid $black;
+}
+
+footer {
+    border-top: 2px solid $black;
+}
+
+* {
+    font: 18px sans-serif;
+}
+
+ul {
+    // display: flex;
+    // gap: 16px;
+    // justify-content: flex-end;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}

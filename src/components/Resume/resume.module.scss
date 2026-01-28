@@ -1,0 +1,62 @@
+@import '../../styles/main.scss';
+
+.test {
+    border-radius: 8px;
+    border: solid 3px $pink2;
+    background-color: $white;
+    padding: 16px;
+    box-shadow: 2px 2px 6px 0 rgba(31, 31, 31, 0.16);
+    width: 75%;
+}
+
+.pageHeading {
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.duration {
+    font-style: italic;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item {
+    &::before {
+        content: ' ';
+        min-width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: $black;
+        margin-top: 9px;
+    }
+
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.work {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
