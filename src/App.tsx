@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import './App.css'
 
@@ -11,7 +11,7 @@ import { Work } from './components/Work'
 function App() {
   return (
       <div>
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
         <Nav />
         <main>
           <Routes>
