@@ -1,17 +1,17 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import './App.css'
+import './App.css';
 
-import { Nav } from './components/Nav'
+import { Nav } from './components/Nav';
 import { Footer } from './components/Footer/Footer';
-import { About } from './components/About'
-import { Resume } from './components/Resume'
-import { Work } from './components/Work'
+import { About } from './components/About';
+import { Resume } from './components/Resume';
+import { Work } from './components/Work';
 
 function App() {
   return (
-      <div>
-        <Router basename={import.meta.env.BASE_URL}>
+    <div>
+      <Router basename={import.meta.env.BASE_URL}>
         <Nav />
         <main>
           <Routes>
@@ -21,9 +21,9 @@ function App() {
           </Routes>
         </main>
         <Footer />
-        </Router>
-      </div>
-  )
+      </Router>
+    </div>
+  );
 }
 
-export default App
+export default App;
